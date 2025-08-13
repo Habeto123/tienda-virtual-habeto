@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instrumentos Habeto</title>
+    <style>
+        body {
+            background-image: url('1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .contenido {
+            color: yellow;
+            text-align: center;
+            padding: 20px 10px; 
+            font-size: 2em;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        .imagenes {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center;
+            gap: 10px; 
+            margin-top: 20px;
+            padding: 0 10px;
+        }
+        .imagenes img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            object-fit: cover;
+            border: 4px solid white;
+        }
+        
+        nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        h1 {
+            font-size: 2em;
+        }
+        
+        @media (max-width: 600px) {
+            .contenido {
+                font-size: 1.5em;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            nav li {
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+      <h1 class="large-font">  
+        <ul>
+          <li><a href="index2.html">Inicio</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="detalle.html">Detalle</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+      </h1>
+    </nav>
+
+    <header>
+        <div class="contenido" id="inicio">
+            <img src="E:\Web Mi Tienda\imagenes\logo2 alex.png" alt="Imagen del Escritorio" style="width:100%; max-width:400px; height:auto;" /> <br>
+            <img src="E:\Web Mi Tienda\imagenes\redes.png" alt="Imagen del Escritorio" style="width:100%; max-width:400px; height:auto;" />
+            <h1>Habeto Instrumentos</h1>
+              <p>Instrumentos Musicales del Folclore Andino</p>
+                <p>Pasto - Nariño - Colombia</p>
+            
+        </div>
+    </header>
+
+    <main>
+           
+        <section class="imagenes" id="galeria">
+            <img src="E:\Web Mi Tienda\imagenes\2.jpg" alt="Instrumento 2" />
+            <img src="E:\Web Mi Tienda\imagenes\3.jpg" alt="Instrumento 3" />
+            <img src="E:\Web Mi Tienda\imagenes\4.jpg" alt="Instrumento 4" />
+            <img src="E:\Web Mi Tienda\imagenes\5.jpg" alt="Instrumento 5" />
+            <img src="E:\Web Mi Tienda\imagenes\6.jpg" alt="Instrumento 6" />
+        </section>
+
+        <center><h1 style="color: rgb(24, 24, 1);">Instrumentos Destacados</h1></center>
+        <section class="imagenes" id="galeria">
+            <img src="E:\Web Mi Tienda\imagenes\7.jpg" alt="Instrumento 7" />
+            <img src="E:\Web Mi Tienda\imagenes\8.jpg" alt="Instrumento 8" />
+        </section>
+        <br><br>
+    </main>
+
+    <footer>
+        <p style="text-align:center; color:white; padding:10px;">© 2023 Habeto Instrumentos</p>
+    </footer>
+</body>
+</html>
